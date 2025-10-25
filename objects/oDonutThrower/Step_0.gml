@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(oGameController.currentState == GAMESTATE.GAMEEND) exit;
+
 if(mouse_check_button(mb_left)){
 	throwing = true;
-	currentPower = maxPower;
+	currentPower = min(currentPower+powerStep,maxPower);
 }
 
 if(mouse_check_button_released(mb_left)){
@@ -20,4 +22,5 @@ if(mouse_check_button_released(mb_left)){
 	else{
 		sprite_index = sDonutBlue;
 	}
+	currentPower = 0;
 }

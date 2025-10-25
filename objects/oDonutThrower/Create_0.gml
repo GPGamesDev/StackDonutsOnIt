@@ -7,4 +7,5 @@ image_speed = 0;
 throwing = false;
 maxPower = 100;
 currentPower = 0;
-throwSpeed = 10;
+powerStep = 5;
+throwSpeed = 50;

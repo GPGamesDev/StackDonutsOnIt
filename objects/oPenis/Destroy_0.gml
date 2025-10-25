@@ -13,6 +13,8 @@ for(var i = 0; i<array_length(donutStack); i++){
 	}
 }
 
+if(oGameController.currentState = GAMESTATE.GAMEEND) exit;
+
 if(_matching) _score = 300;
 
 oScore.gameScore += _score;

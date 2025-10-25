@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oThrownDonut",
+  "%Name":"oGameController",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPenis","path":"objects/oPenis/oPenis.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oThrownDonut",
+  "name":"oGameController",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sDonut",
-    "path":"sprites/sDonut/sDonut.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

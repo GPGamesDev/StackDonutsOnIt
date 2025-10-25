@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"oCaughtDonut","path":"objects/oCaughtDonut/oCaughtDonut.yy",},},
     {"id":{"name":"oDonutThrower","path":"objects/oDonutThrower/oDonutThrower.yy",},},
+    {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
     {"id":{"name":"oPenis","path":"objects/oPenis/oPenis.yy",},},
     {"id":{"name":"oPenisSpawner","path":"objects/oPenisSpawner/oPenisSpawner.yy",},},
     {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},},

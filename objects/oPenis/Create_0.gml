@@ -18,6 +18,12 @@ targetX = x;
 targetY = y;
 
 donutStack = [noone, noone, noone];
+donutOffset = [0,0,0];
 donutCount = 0;
 stackHeight = 10;
 maxStack = 4;
+
+maxCatchSpeed = 25;
+
+headOffset = 40;
+donutDropSpeed = 1;
