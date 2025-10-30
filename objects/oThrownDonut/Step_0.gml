@@ -8,3 +8,4 @@ if(catchable && speed<minCatchSpeed){
 	catchable = false;
 }
 
+height = maxHeight*speed/oDonutThrower.maxPower;

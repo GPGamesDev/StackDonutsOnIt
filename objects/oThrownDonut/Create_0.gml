@@ -8,3 +8,6 @@ speedDecay = 0.95;
 minCatchSpeed = 5;
 
 catchable = true;
+
+maxHeight = 100;
+height = maxHeight;
